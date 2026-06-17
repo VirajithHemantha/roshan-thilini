@@ -445,7 +445,7 @@ export default function App() {
                 {/* Scroll Indicator */}
                 <motion.div
                   style={{ opacity }}
-                  className="absolute bottom-12 right-12 flex flex-col items-center gap-4"
+                  className="absolute bottom-12 right-12 hidden md:flex flex-col items-center gap-4"
                 >
                   <span className="vertical-text text-[9px] uppercase tracking-[0.4em] text-stone-400">Scroll</span>
                   <motion.div
@@ -493,6 +493,7 @@ export default function App() {
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
+                    className="text-center md:text-left"
                   >
                     <h2 className="text-5xl md:text-7xl mb-12 font-display leading-tight">
                       The <br />
@@ -534,13 +535,13 @@ export default function App() {
             {/* Details: Hardware/Tool Style Grid */}
             <section className="py-40 bg-ivory-dark text-ink border-t border-gold/10">
               <div className="max-w-6xl mx-auto px-8">
-                <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+                <div className="flex flex-col md:flex-row justify-between items-center md:items-end text-center md:text-left mb-24 gap-8">
                   <div>
                     <span className="text-gold uppercase tracking-[0.5em] text-[10px] font-bold mb-4 block">The Itinerary</span>
                     <h2 className="text-5xl md:text-7xl font-display">Event Details</h2>
                   </div>
                   <div className="h-px flex-1 bg-gold/20 mx-8 hidden md:block" />
-                  <div className="text-right">
+                  <div className="text-center md:text-right">
                     <span className="text-stone-400 font-serif italic text-xl">Kay Jay villa banquet</span>
                   </div>
                 </div>
