@@ -624,7 +624,7 @@ export default function App() {
                 <Sparkles className="text-gold mx-auto mb-8" size={32} />
                 <h2 className="text-5xl md:text-6xl font-display mb-6">Will You Join Us?</h2>
                 <p className="text-stone-400 font-serif italic text-xl mb-16">
-                  Kindly respond by the thirtieth of July
+                  Kindly respond by the thirteenth of July
                 </p>
                 
                 <form className="space-y-10 text-left" onSubmit={handleRsvpSubmit}>
