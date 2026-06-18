@@ -517,7 +517,7 @@ export default function App() {
                   >
                     <div className="w-full h-full rounded-t-full overflow-hidden">
                       <img
-                        src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=1000"
+                        src="/background.png"
                         alt="Invitation Detail"
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
