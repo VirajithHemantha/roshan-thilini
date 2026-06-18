@@ -373,7 +373,7 @@ export default function App() {
                   className="absolute inset-0"
                 >
                   <img
-                    src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&q=80&w=2000"
+                    src="/background.png"
                     alt="Wedding Background Leaves"
                     className="w-full h-full object-cover opacity-80"
                     referrerPolicy="no-referrer"
