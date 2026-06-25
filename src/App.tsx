@@ -373,7 +373,7 @@ export default function App() {
                   className="absolute inset-0"
                 >
                   <img
-                    src="/background.png"
+                    src="/1234.webp"
                     alt="Wedding Background Leaves"
                     className="w-full h-full object-cover opacity-80"
                     referrerPolicy="no-referrer"
@@ -517,7 +517,7 @@ export default function App() {
                   >
                     <div className="w-full h-full rounded-t-full overflow-hidden">
                       <img
-                        src="/background.png"
+                        src="/1234.webp"
                         alt="Invitation Detail"
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
@@ -580,7 +580,7 @@ export default function App() {
                     className="rounded-3xl overflow-hidden border border-gold/20 shadow-2xl"
                   >
                     <img
-                      src="/hotel image.jpg"
+                      src="/1234.webp"
                       alt="Venue Location"
                       className="w-full h-[360px] md:h-[460px] object-cover"
                     />
